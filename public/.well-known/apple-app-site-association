@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "dev.xiaojiba.qify",
+        "paths": [
+          "/room/*",
+          "/"
+        ]
+      }
+    ]
+  }
+}
