@@ -1,0 +1,46 @@
+#!/bin/bash
+
+UPSTREAM=${1:-'@{u}'}
+LOCAL=$(git rev-parse @)
+REMOTE=$(git rev-parse "$UPSTREAM")
+BASE=$(git merge-base @ "$UPSTREAM")
+
+name=xiaojiba_dev
+
+container_id=$(docker container ls --filter "ancestor=$name" --format '{{.ID}}')
+
+if [ "$LOCAL" = "$REMOTE" ]; then
+    echo "Up-to-date"
+    if ! [ -z "$container_id" ]; then
+        sudo docker container stop "$container_id"
+    fi
+elif [ "$LOCAL" = "$BASE" ]; then
+    echo "Need to pull"
+    git pull
+    latest_image=$(sudo docker images --format "{{.ID}}" --filter "reference=$name")
+    sudo docker build -t "$name" .
+    if ! [ -z "$container_id" ]; then
+        sudo docker container stop "$container_id"
+    fi
+    sudo docker image rm --force "$latest_image"
+fi
+
+name="xiaojiba_dev"; sudo docker run -d -p 6000:3000 "$name"
+# sudo docker run -it -p 6000:3000 "$name" /bin/sh
+
+exit
+
+name=xiaojiba_dev; \
+container_id=$(docker container ls --filter "ancestor=$name" --format '{{.ID}}'); \
+
+echo "Need to pull"; \
+git pull; \
+latest_image=$(sudo docker images --format "{{.ID}}" --filter "reference=$name"); \
+sudo docker build -t "$name" .; \
+if ! [ -z "$container_id" ]; then
+    sudo docker container stop "$container_id"
+fi; \
+sudo docker image rm --force "$latest_image"; \
+
+name="xiaojiba_dev"; sudo docker run -d -p 6000:3000 "$name";
+# sudo docker run -it -p 6000:3000 "$name" /bin/sh
