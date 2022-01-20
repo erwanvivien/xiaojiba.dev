@@ -1,0 +1,20 @@
+[
+  {
+    "link": "https://qify.app",
+    "title": "📯 Qify →",
+    "desc": "A shared playlist jukebox using Spotify",
+    "className": "qify"
+  },
+  {
+    "link": "https://ms-setting.com",
+    "title": "⚙️ MS-Setting",
+    "desc": "MS-Setting provides direct links to Windows settings",
+    "className": "ms_setting"
+  },
+  {
+    "link": "https://drunkeen.app",
+    "title": "😎 Drunkeen",
+    "desc": "Create and manage party easily: invitations, info, shopping list",
+    "className": "drunkeen"
+  }
+]

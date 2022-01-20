@@ -1,0 +1,14 @@
+[
+  {
+    "link": "https://github.com/erwanvivien/QR-Gen",
+    "title": "🔲 QRGen",
+    "desc": "Create QRCode at high speed using Rust",
+    "className": "qrgen"
+  },
+  {
+    "link": "https://github.com/erwanvivien/discord_eGLD",
+    "title": "💰 Goldr",
+    "desc": "Discord bot watching crypto $eGLD",
+    "className": "goldr"
+  }
+]
