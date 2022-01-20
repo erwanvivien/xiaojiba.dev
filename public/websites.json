@@ -7,13 +7,13 @@
   },
   {
     "link": "https://ms-setting.com",
-    "title": "⚙️ MS-Setting",
+    "title": "⚙️ MS-Setting →",
     "desc": "MS-Setting provides direct links to Windows settings",
     "className": "ms_setting"
   },
   {
     "link": "https://drunkeen.app",
-    "title": "😎 Drunkeen",
+    "title": "😎 Drunkeen →",
     "desc": "Create and manage party easily: invitations, info, shopping list",
     "className": "drunkeen"
   }
