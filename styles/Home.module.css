@@ -113,9 +113,9 @@
   border-color: #ff6b6b;
 }
 
-.qrgen:hover,
-.qrgen:focus,
-.qrgen:active {
+.fast_qr:hover,
+.fast_qr:focus,
+.fast_qr:active {
   color: #dea584;
   border-color: #dea584;
 }

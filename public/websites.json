@@ -16,5 +16,11 @@
     "title": "😎 Drunkeen →",
     "desc": "Create and manage party easily: invitations, info, shopping list",
     "className": "drunkeen"
+  },
+  {
+    "link": "https://fast-qr.com",
+    "title": "🔲 Fast-qr →",
+    "desc": "Create QRCode the easiest way",
+    "className": "fast_qr"
   }
 ]

@@ -1,9 +1,9 @@
 [
   {
-    "link": "https://github.com/erwanvivien/QR-Gen",
-    "title": "🔲 QRGen →",
+    "link": "https://github.com/erwanvivien/fast_qr",
+    "title": "🔲 Fast-qr →",
     "desc": "Create QRCode at high speed using Rust",
-    "className": "qrgen"
+    "className": "fast_qr"
   },
   {
     "link": "https://github.com/erwanvivien/discord_eGLD",
