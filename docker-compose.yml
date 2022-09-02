@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  website:
+    build: .
+    ports:
+      - "6000:3000"
+    restart: always
+
+  todo:
+    image: prologic/todo
+    container_name: todo
+    restart: always
+    ports:
+      - "6001:8000"
+    volumes:
+      - todo_db:/usr/local/go/src/todo/todo.db
+
+volumes:
+  todo_db:
