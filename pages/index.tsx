@@ -22,12 +22,15 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Welcome to Xiaojiba&apos;s website</h1>
 
         <p className={styles.description}>
-          Find more about my work on
-          <code className={styles.code}>
-            <Link href="https://github.com/erwanvivien">
-              <a>Github</a>
-            </Link>
-          </code>
+          Find more about my work on{" "}
+          <Link href="https://github.com/erwanvivien">
+            <a className={styles.link}>Github</a>
+          </Link>
+          <br />
+          and here is my{" "}
+          <Link href="/CV.pdf" target={"_blank"}>
+            <a className={styles.link}>resume</a>
+          </Link>
         </p>
 
         <h2>Websites</h2>

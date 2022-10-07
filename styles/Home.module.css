@@ -65,6 +65,15 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.link {
+  transition: color 0.2s ease-in-out;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #0078f7;
+}
+
 .grid {
   max-width: 700px;
 
