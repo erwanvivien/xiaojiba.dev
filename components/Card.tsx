@@ -1,4 +1,3 @@
-import { NextPage } from "next";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
@@ -9,7 +8,7 @@ type CardProps = {
   className: string;
 };
 
-const Card: NextPage<CardProps> = ({ className, desc, title, link }) => (
+const Card: React.FC<CardProps> = ({ className, desc, title, link }) => (
   <Link href={link}>
     <a className={[styles.card, styles[className]].join(" ")}>
       <h2>{title}</h2>
@@ -18,4 +17,5 @@ const Card: NextPage<CardProps> = ({ className, desc, title, link }) => (
   </Link>
 );
 
+export type { CardProps };
 export default Card;

@@ -1,15 +1,15 @@
-import { NextPage } from "next";
+import { CardProps } from "./Card";
 
 type ListProps = {
-  data: any[];
-  Component: NextPage<any>;
+  data: CardProps[];
+  Component: React.FC<CardProps>;
   key: string;
 };
 
-const List: NextPage<ListProps> = ({ Component, data, key }) => (
+const List: React.FC<ListProps> = ({ Component, data, key }) => (
   <>
-    {data.map((element) => (
-      <Component key={element[key]} {...element} />
+    {data.map((element, i) => (
+      <Component key={`${key}-${i}`} {...element} />
     ))}
   </>
 );
