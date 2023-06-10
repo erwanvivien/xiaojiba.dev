@@ -101,25 +101,11 @@
   justify-content: center;
 }
 
-.qify:hover,
-.qify:focus,
-.qify:active {
-  color: #27c975;
-  border-color: #27c975;
-}
-
 .ms_setting:hover,
 .ms_setting:focus,
 .ms_setting:active {
   color: #0078d7;
   border-color: #0078d7;
-}
-
-.drunkeen:hover,
-.drunkeen:focus,
-.drunkeen:active {
-  color: #ff6b6b;
-  border-color: #ff6b6b;
 }
 
 .fast_qr:hover,
@@ -129,11 +115,32 @@
   border-color: #dea584;
 }
 
-.goldr:hover,
-.goldr:focus,
-.goldr:active {
-  color: #5271ff;
-  border-color: #5271ff;
+.isim_raytracer:hover,
+.isim_raytracer:focus,
+.isim_raytracer:active {
+  color: #88bd00;
+  border-color: #88bd00;
+}
+
+.algorep:hover,
+.algorep:focus,
+.algorep:active {
+  color: #a48261;
+  border-color: #a48261;
+}
+
+.fish_bot:hover,
+.fish_bot:focus,
+.fish_bot:active {
+  color: #3c79ab;
+  border-color: #3c79ab;
+}
+
+.mjolnir:hover,
+.mjolnir:focus,
+.mjolnir:active {
+  color: #831906;
+  border-color: #831906;
 }
 
 .card h2 {
