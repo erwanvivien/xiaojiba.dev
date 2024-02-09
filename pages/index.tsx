@@ -16,6 +16,7 @@ const Home: NextPage = () => {
         <title>Xiaojiba</title>
         <meta name="description" content="Xiaojiba's website" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="google-adsense-account" content="ca-pub-2653993181090618" />
       </Head>
 
       <main className={styles.main}>
