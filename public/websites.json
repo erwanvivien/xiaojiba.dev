@@ -1,14 +1,20 @@
 [
   {
-    "link": "https://ms-settings.net",
-    "title": "⚙️ MS-Settings.net →",
-    "desc": "MS-Setting provides direct links to Windows settings",
-    "className": "ms_setting"
+    "link": "https://maison-bundle.com",
+    "title": "🏠 Maison Bundle →",
+    "desc": "The collection of french DIY ebooks, website fully custom built by me.",
+    "className": "maison_bundle"
   },
   {
-    "link": "https://fast-qr.com",
-    "title": "🔲 fast-qr.com →",
-    "desc": "Create QRCode the easiest way",
-    "className": "fast_qr"
+    "link": "https://moonvas.com",
+    "title": "🌕 Moonvas →",
+    "desc": "Your Creative Orbit. A platform to explore and build ideas collaboratively.",
+    "className": "moonvas"
+  },
+  {
+    "link": "https://featguessr.com",
+    "title": "🌍 FeatGuessr →",
+    "desc": "An artist matching mini-game, link artists via intermediate collaborations.",
+    "className": "featguessr"
   }
 ]

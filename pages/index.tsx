@@ -7,13 +7,12 @@ import Card from "../components/Card";
 import List from "../components/List";
 
 import website from "../public/websites.json";
-import codeProject from "../public/projects.json";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Xiaojiba</title>
+        <title>Xiaojiba (@ErwanVi)</title>
         <meta name="description" content="Xiaojiba's website" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-adsense-account" content="ca-pub-2653993181090618" />
@@ -23,25 +22,19 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Welcome to Xiaojiba&apos;s website</h1>
 
         <p className={styles.description}>
-          Find more about my work on{" "}
+          Meet me on{" "}
           <Link href="https://github.com/erwanvivien">
             <a className={styles.link}>Github</a>
-          </Link>
-          <br />
-          and here is my{" "}
-          <Link href="/CV.pdf" target={"_blank"}>
-            <a className={styles.link}>resume</a>
+          </Link>{" "}
+          and{" "}
+          <Link href="https://x.com/ErwanVi">
+            <a className={styles.link}>X (Twitter)</a>
           </Link>
         </p>
 
         <h2>Websites</h2>
         <div className={styles.grid}>
           <List key="title" Component={Card} data={website} />
-        </div>
-
-        <h2>Code project</h2>
-        <div className={styles.grid}>
-          <List key="title" Component={Card} data={codeProject} />
         </div>
       </main>
     </div>

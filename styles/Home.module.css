@@ -101,46 +101,25 @@
   justify-content: center;
 }
 
-.ms_setting:hover,
-.ms_setting:focus,
-.ms_setting:active {
+.maison_bundle:hover,
+.maison_bundle:focus,
+.maison_bundle:active {
   color: #0078d7;
   border-color: #0078d7;
 }
 
-.fast_qr:hover,
-.fast_qr:focus,
-.fast_qr:active {
-  color: #dea584;
-  border-color: #dea584;
+.featguessr:hover,
+.featguessr:focus,
+.featguessr:active {
+  color: #38397b;
+  border-color: #38397b;
 }
 
-.isim_raytracer:hover,
-.isim_raytracer:focus,
-.isim_raytracer:active {
-  color: #88bd00;
-  border-color: #88bd00;
-}
-
-.algorep:hover,
-.algorep:focus,
-.algorep:active {
-  color: #a48261;
-  border-color: #a48261;
-}
-
-.fish_bot:hover,
-.fish_bot:focus,
-.fish_bot:active {
-  color: #3c79ab;
-  border-color: #3c79ab;
-}
-
-.mjolnir:hover,
-.mjolnir:focus,
-.mjolnir:active {
-  color: #831906;
-  border-color: #831906;
+.moonvas:hover,
+.moonvas:focus,
+.moonvas:active {
+  color: #1c212b;
+  border-color: #1c212b;
 }
 
 .card h2 {
