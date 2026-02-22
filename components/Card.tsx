@@ -9,11 +9,9 @@ type CardProps = {
 };
 
 const Card: React.FC<CardProps> = ({ className, desc, title, link }) => (
-  <Link href={link}>
-    <a className={[styles.card, styles[className]].join(" ")}>
-      <h2>{title}</h2>
-      <p>{desc}</p>
-    </a>
+  <Link href={link} className={[styles.card, styles[className]].join(" ")}>
+    <h2>{title}</h2>
+    <p>{desc}</p>
   </Link>
 );
 

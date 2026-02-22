@@ -23,12 +23,12 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           Meet me on{" "}
-          <Link href="https://github.com/erwanvivien">
-            <a className={styles.link}>Github</a>
+          <Link href="https://github.com/erwanvivien" className={styles.link}>
+            Github
           </Link>{" "}
           and{" "}
-          <Link href="https://x.com/ErwanVi">
-            <a className={styles.link}>X (Twitter)</a>
+          <Link href="https://x.com/ErwanVi" className={styles.link}>
+            X (Twitter)
           </Link>
         </p>
 
