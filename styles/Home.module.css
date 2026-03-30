@@ -122,6 +122,13 @@
   border-color: #1c212b;
 }
 
+.social_account_manager:hover,
+.social_account_manager:focus,
+.social_account_manager:active {
+  color: #a830aa;
+  border-color: #a830aa;
+}
+
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;

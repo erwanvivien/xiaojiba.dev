@@ -5,8 +5,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Card from "../components/Card";
 import List from "../components/List";
-
-import website from "../public/websites.json";
+import { websites } from "./websites";
 
 const Home: NextPage = () => {
   return (
@@ -34,7 +33,7 @@ const Home: NextPage = () => {
 
         <h2>Websites</h2>
         <div className={styles.grid}>
-          <List key="title" Component={Card} data={website} />
+          <List key="title" Component={Card} data={websites} />
         </div>
       </main>
     </div>

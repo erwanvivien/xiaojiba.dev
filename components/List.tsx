@@ -1,8 +1,8 @@
-import { CardProps } from "./Card";
+import type { Website } from "../pages/websites";
 
 type ListProps = {
-  data: CardProps[];
-  Component: React.FC<CardProps>;
+  data: Website[];
+  Component: React.FC<Website>;
   key: string;
 };
 
