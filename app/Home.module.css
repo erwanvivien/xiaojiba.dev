@@ -86,60 +86,6 @@
   grid-row-gap: 1rem;
 }
 
-.card {
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-
-  display: flex;
-
-  flex-direction: column;
-  justify-content: center;
-}
-
-.maison_bundle:hover,
-.maison_bundle:focus,
-.maison_bundle:active {
-  color: #0078d7;
-  border-color: #0078d7;
-}
-
-.featguessr:hover,
-.featguessr:focus,
-.featguessr:active {
-  color: #38397b;
-  border-color: #38397b;
-}
-
-.moonvas:hover,
-.moonvas:focus,
-.moonvas:active {
-  color: #1c212b;
-  border-color: #1c212b;
-}
-
-.social_account_manager:hover,
-.social_account_manager:focus,
-.social_account_manager:active {
-  color: #a830aa;
-  border-color: #a830aa;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
 .logo {
   height: 1em;
   margin-left: 0.5rem;

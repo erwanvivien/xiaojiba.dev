@@ -2,9 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 
-import styles from "../styles/Home.module.css";
-import Card from "../components/Card";
-import List from "../components/List";
+import styles from "./Home.module.css";
+import { Card } from "../components/Card";
 import { websites } from "./websites";
 
 const Home: NextPage = () => {
@@ -33,7 +32,9 @@ const Home: NextPage = () => {
 
         <h2>Websites</h2>
         <div className={styles.grid}>
-          <List key="title" Component={Card} data={websites} />
+          {websites.map((website) => (
+            <Card key={website.title} {...website} />
+          ))}
         </div>
       </main>
     </div>

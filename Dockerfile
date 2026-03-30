@@ -20,10 +20,9 @@ WORKDIR /app
 
 COPY --from=deps /app/node_modules ./node_modules
 
-COPY pages ./pages
 COPY components ./components
 COPY public ./public
-COPY styles ./styles
+COPY app ./app
 COPY next.config.js \
   tsconfig.json \
   package.json \

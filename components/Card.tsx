@@ -1,12 +1,13 @@
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import type { Website } from "../pages/websites";
+import type { Website } from "../app/websites";
+import stylesheet from "./Card.module.css";
 
-const Card: React.FC<Website> = ({ className, desc, title, link }) => (
-  <Link href={link} className={[styles.card, styles[className]].join(" ")}>
+export const Card: React.FC<Website> = ({ className, desc, title, link }) => (
+  <Link
+    href={link}
+    className={[stylesheet.card, stylesheet[className]].join(" ")}
+  >
     <h2>{title}</h2>
     <p>{desc}</p>
   </Link>
 );
-
-export default Card;
